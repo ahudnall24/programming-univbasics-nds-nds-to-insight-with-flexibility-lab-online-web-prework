@@ -30,8 +30,8 @@ def movie_with_director_name(director_name, movie_data)
   }
 end
 
-snacks = snack_collection(vm)
-p summary_snack_count_by_prices(snacks)
+director_name= worldwide_gross(vm)
+p worldwide_gross(director_name)
 #=>  {3=>5, 12=>3, 20=>1, 5=>1, 1=>4, 13=>1, 1000=>1, 99=>1}
 # Your code after this point
 
